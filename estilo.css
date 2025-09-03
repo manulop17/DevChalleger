@@ -1,6 +1,8 @@
 body{
     margin-left: 100px;
     background-color: black;
+    text-align: center;
+
 }
 h1{
     font-family: Arial, Helvetica, sans-serif;
@@ -14,8 +16,4 @@ h2{
     font-size: 21px;
     line-height: 1.5;
     color: wheat;
-}
-locura{
-    padding: 12px;
-    border-color: aliceblue;
 }
