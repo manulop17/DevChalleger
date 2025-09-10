@@ -1,14 +1,111 @@
-body{
-    margin-left: 100px;
-    background-color: black;
+body {
+    background-color: #f7f8fd;
+    font-family: 'Inter', Arial, sans-serif;
+    height: 100vh;
+}
+
+.Email {
+    background-color: #fff;
+    border: none;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+    width: 400px;
+    margin: 45px auto auto auto; 
+    padding: 32px 24px 24px 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Email input[type="email"] {
+    width: 100%;
+    padding: 16px;
+    margin-bottom: 20px;
+    border: 2px solid #e5e7eb;
+    border-radius: 8px;
+    font-size: 16px;
+    background: #fff;
+    color: #111827;
+    transition: border-color 0.3s;
+    box-sizing: border-box;
+}
+
+.Email input[type="email"]:focus {
+    border-color: #6366f1;
+    outline: none;
+}
+
+/* Botón */
+.Email input[type="button"] {
+    font-family: poppins, Arial, sans-serif;
+    width: 100%;
+    padding: 16px;
+    background-color: #284BCE;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-bottom: 16px;
+    transition: background-color 0.3s;
+    box-sizing: border-box;
+}
+
+.Email input[type="button"]:hover {
+    background-color: #051750;
+}
+
+p {
+    font-family: poppins, Arial, sans-serif;
+    font-size: 20px;
+    color: #6b7280;
     text-align: center;
-
-}
-h1{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 36px;
-    font-weight:bold;
-    line-height: 2.25;
-    color: wheat;
+    margin-top: 0;
+    
 }
 
+.Email p{
+    font-family: poppins, Arial, sans-serif;
+    font-size: 14px;
+    color: #6b7280;
+    text-align: center;
+    margin-top: 0;
+}
+
+/* Contenedor principal para centrar todo */
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 64px;
+}
+
+/* Logo */
+.main-container img {
+    width: 56px;
+    height: 56px;
+    margin-bottom: 32px;
+}
+
+/* Título principal */
+.main-container h1 {
+    font-family: poppins, Arial, sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    color: #111827;
+    text-align: center;
+    margin-bottom: 24px;
+    letter-spacing: -1px;
+}
+
+/* Subtítulo */
+.main-container .subtitle {
+    font-family: poppins, Arial, sans-serif;
+    font-size: 20px;
+    color: #6b7280;
+    text-align: center;
+    margin-bottom: 8px;
+    max-width: 650px;
+    line-height: 1.5;
+}
